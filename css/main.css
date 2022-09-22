@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Arapey', serif;
+}
+
+body {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+p, span {
+	font-family: 'Verdana', serif;
+}
+
+header	{
+	text-align: center;
+	margin-top: 75px;
+}
+
+h1 {
+	margin: 100px 0 50px 0;
+	font-size: 60px;
+	color: #9db0d1;
+	font-weight: lighter;
+}
+
+header p {
+	width: 1024px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+
+
+.button {
+	border: none;
+	margin: 50px 0;
+}
+
+.button-start {
+	padding: 24px 50px;
+	font-size: 30px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #ebac87;
+	border-radius: 10px;
+	/*border: transparent;*/
+
+	transition: all 1s ease;
+}
+
+.button-start:hover {
+	background: #e09265;
+	color: #fff ;
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+    margin: 0 auto;
+}
+
+.service {
+	display: flex;
+    align-items: center;
+	margin: 0 25px;
+}
+
+.svg {
+	background: #9db0d1;
+	border-radius: 50px;
+	padding: 17px;
+}
+
+.title {
+	font-size: 20px;
+	margin: 0 0 0 15px;
+}
+
+
+
+
+/*main*/
+
+.start {
+	background: url('../img/Group.png') top / auto 200px repeat-x, 
+	linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.start h2 {
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+.catalog {
+	background: #87c6eb;
+	margin: 0 auto;
+	padding: 50px 0 0px 0;
+}
+
+.menu-block {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.product {
+	width: 350px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 2%;
+}
+
+.product-number {
+	padding: 10px;
+
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background: #ebac87;
+	border-radius: 50px;
+}
+
+.product-number span {
+	font-size: 30px;
+	color: #fff;
+}
+
+.product-image {
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+  margin: 20px 0;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.product-text {
+	font-size: 22px;
+	width: 260px;
+}
+.product-text span {
+	font-weight: bold;
+}
+
+
+.action {
+	background: url('../img/Rectangle4.png') bottom right / auto 475px no-repeat;
+	padding: 20px;
+}
+
+
+.check-in {
+	margin: 50px 100px;
+	width: 590px;
+}
+
+.check-in h2 {
+	font-size: 40px;
+	font-weight: lighter;
+	color: #fff;
+}
+
+.check-in p {
+	font-size: 20px;
+	margin: 25px auto;
+}
+
+.check-in span {
+	text-decoration: underline;
+	
+}
+
+
+
+.tab {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+    width: 1200px;
+}
+
+.button-tab {
+	border: none;
+	margin: 50px 0;
+}
+
+.button-tab a {
+
+	background: #fff;
+  	padding: 24px 50px;
+	font-size: 30px;
+	color: #ebac87;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 10px;
+	transition: all 1s ease;
+}
+
+.button-tab a:hover {
+	background: #e09265;
+	color: #fff ;
+}
+
+.item {
+	padding: 10px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	background: #ebac87;
+	border-radius: 50px;
+	transition: all 1s ease;
+}
+
+
+.item a {
+	font-size: 60px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 1s ease;
+}
+
+.item:hover {
+	background: #fff;
+	color: #e09265;
+}
+
+.item a:hover {
+	background: #fff;
+	color: #e09265;
+}
+
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+
+
+
+/*footer*/
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+    margin: 0 auto;
+    /*padding: 0 57px;*/
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+}
+
+.icons svg {
+	margin: 0 10px;
+}
+
